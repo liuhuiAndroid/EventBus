@@ -16,6 +16,8 @@ if(isSnapshot) {
 
 repositories {
     mavenCentral()
+    mavenLocal()
+    jcenter()
 }
 
 // Still unsupported, see http://issues.gradle.org/browse/GRADLE-784
